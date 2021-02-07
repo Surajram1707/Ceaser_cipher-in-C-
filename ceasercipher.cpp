@@ -31,7 +31,7 @@ int main()
     cin>>text;
     int s = 3; 
     cout << "Text : " << text; 
-    cout << "\nceasar Shift: " << s; 
+    cout << "\nCeasar Shift: " << s; 
     cout << "\nCipher: " << encrypt(text, s); 
     return 0; 
 } 
